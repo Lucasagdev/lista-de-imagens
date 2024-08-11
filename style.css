@@ -1,0 +1,70 @@
+body{
+    font-family: "Public Sans", sans-serif;
+}
+
+.pinturas{
+    display: flex;
+    justify-content: center;
+    padding-top: 129px;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.obra-1{
+    display: flex;
+    background-image: url(./img/rome.jpg);
+    width: 335px;
+    height: 432px;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: flex-end;
+    
+}
+
+.obra-2{
+    display: flex;
+    background-image: url(./img/boat-at-sea.png);
+    width: 335px;
+    height: 432px;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: flex-end;
+}
+
+.obra-3{
+    display: flex;
+    background-image: url(./img/sand-and-sea.png);
+    width: 335px;
+    height: 432px;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: flex-end;
+}
+
+.obra-4{
+    display: flex;
+    background-image: url(./img/starry-night.png);
+    width: 335px;
+    height: 432px;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: flex-end;
+}
+
+.texto{
+    flex-direction: column;
+    margin: 20px 25px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    
+}
+
+.texto span{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.texto h1{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
